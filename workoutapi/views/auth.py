@@ -1,11 +1,29 @@
+from rest_framework import serializers
+from django.contrib.auth.models import User
 from rest_framework import generics, permissions
 from rest_framework.response import Response
 from rest_framework.authtoken.models import Token
 from rest_framework.views import APIView
 from django.contrib.auth import authenticate
 
-from .profile import UserSerializer, RegisterSerializer
 
+class RegisterSerializer(serializers.ModelSerializer):
+    password = serializers.CharField(write_only=True)
+
+    class Meta:
+        model = User
+        fields = ['id', 'username', 'email', 'password', 'first_name', 'last_name']
+
+
+    def create(self, validated_data):
+        user = User.objects.create_user(
+            username=validated_data['username'],
+            first_name=validated_data['first_name'],
+            last_name=validated_data['last_name'],
+            email=validated_data['email'],
+            password=validated_data['password']
+        )
+        return user
 
 # Register new users
 
@@ -23,7 +41,7 @@ class RegisterView(generics.CreateAPIView):
             "token": token.key
         })
     
-
+   
 # Login existing users
 
 class LoginView(APIView):
@@ -40,3 +58,8 @@ class LoginView(APIView):
             "user": UserSerializer(user).data,
             "token": token.key
         })
+    
+class UserSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = User
+        fields = ['id', 'username', 'email']

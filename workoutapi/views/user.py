@@ -6,7 +6,7 @@ from rest_framework import status
 from django.contrib.auth.models import User
 
 
-class UserSerializer(serializers.HyperlinkedModelSerializer):
+class UserDetailSerializer(serializers.HyperlinkedModelSerializer):
     
     class Meta:
         model = User
@@ -14,7 +14,7 @@ class UserSerializer(serializers.HyperlinkedModelSerializer):
             view_name='user',
             lookup_field = 'id'
         )
-        fields = ('id', 'url', 'username', 'password', 'first_name', 'last_name', 'email', 'is_active', 'date_joined')
+        fields = ('id', 'username', 'password', 'first_name', 'last_name', 'email')
 
 
 class Users(ViewSet):
@@ -23,7 +23,7 @@ class Users(ViewSet):
         
         try:
             user = User.objects.get(pk=pk)
-            serializer = UserSerializer(user, context={'request': request})
+            serializer = UserDetailSerializer(user, context={'request': request})
             return Response(serializer.data)
         except Exception as ex:
             return HttpResponseServerError(ex)
@@ -33,6 +33,6 @@ class Users(ViewSet):
     def list(self, request):
         
         users = User.objects.all()
-        serializer = UserSerializer(
+        serializer = UserDetailSerializer(
             users, many=True, context={'request': request})
         return Response(serializer.data)

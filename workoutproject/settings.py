@@ -29,7 +29,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'corsheaders',
-    'workoutapi',
+    'workoutapi.apps.WorkoutapiConfig'
 ]
 
 REST_FRAMEWORK = {
