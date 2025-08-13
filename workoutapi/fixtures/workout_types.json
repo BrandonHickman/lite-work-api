@@ -1,0 +1,27 @@
+[
+  {
+    "model": "workoutapi.workouttype",
+    "pk": 1,
+    "fields": { "name": "Strength" }
+  },
+  {
+    "model": "workoutapi.workouttype",
+    "pk": 2,
+    "fields": { "name": "Cardio" }
+  },
+  {
+    "model": "workoutapi.workouttype",
+    "pk": 3,
+    "fields": { "name": "Mobility" }
+  },
+  {
+    "model": "workoutapi.workouttype",
+    "pk": 4,
+    "fields": { "name": "HIIT" }
+  },
+  {
+    "model": "workoutapi.workouttype",
+    "pk": 5,
+    "fields": { "name": "Core" }
+  }
+]

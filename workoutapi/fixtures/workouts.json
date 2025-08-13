@@ -1,0 +1,69 @@
+[
+  {
+    "model": "workoutapi.workout",
+    "pk": 1,
+    "fields": {
+      "user": 2,
+      "title": "Leg Day Strength",
+      "date": "2025-08-10",
+      "description": "Heavy compound lifts focused on lower body.",
+      "duration_minutes": 60,
+      "workout_type": 1,
+      "completed": false
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 2,
+    "fields": {
+      "user": 2,
+      "title": "Upper Body Push",
+      "date": "2025-08-11",
+      "description": "Bench press, overhead press, and accessories.",
+      "duration_minutes": 45,
+      "workout_type": 1,
+      "completed": false
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 3,
+    "fields": {
+      "user": 2,
+      "title": "Mobility Flow",
+      "date": "2025-08-12",
+      "description": "Hips/shoulders mobility drills.",
+      "duration_minutes": 30,
+      "workout_type": 3,
+      "completed": false
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 4,
+    "fields": {
+      "user": 2,
+      "title": "HIIT Circuits",
+      "date": "2025-08-13",
+      "description": "Intervals: burpees, KB swings, rower.",
+      "duration_minutes": 25,
+      "workout_type": 4,
+      "completed": false
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 5,
+    "fields": {
+      "user": 2,
+      "title": "Core Focus",
+      "date": "2025-08-14",
+      "description": "Planks, hollow holds, anti-rotation.",
+      "duration_minutes": 20,
+      "workout_type": 5,
+      "completed": false
+    }
+  }
+]
+
+

@@ -9,6 +9,7 @@ from workoutapi.views.workout import WorkoutViewSet
 from workoutapi.views.exercise import ExerciseViewSet
 from workoutapi.views.workout_type import WorkoutTypeViewSet
 from workoutapi.views.workout_exercise import WorkoutExerciseViewSet
+from workoutapi.views.muscle_groups import MuscleGroupViewSet
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'users', Users, basename='user')
@@ -17,6 +18,8 @@ router.register(r'workouts', WorkoutViewSet, basename='workout')
 router.register(r'exercises', ExerciseViewSet, basename='exercise')
 router.register(r'workout-types', WorkoutTypeViewSet, basename='workouttype')
 router.register(r'workout-exercises', WorkoutExerciseViewSet, basename='workoutexercise')
+router.register(r'muscle-groups', MuscleGroupViewSet, basename='musclegroup')
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),

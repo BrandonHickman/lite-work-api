@@ -1,0 +1,62 @@
+[
+  {
+    "model": "workoutapi.workoutexercise",
+    "pk": 1,
+    "fields": {
+      "workout": 1,
+      "exercise": 1,
+      "sets": 4,
+      "reps": 8,
+      "weight": 100.0,
+      "duration_seconds": null
+    }
+  },
+  {
+    "model": "workoutapi.workoutexercise",
+    "pk": 2,
+    "fields": {
+      "workout": 2,
+      "exercise": 2,
+      "sets": null,
+      "reps": null,
+      "weight": null,
+      "duration_seconds": 1800
+    }
+  },
+  {
+    "model": "workoutapi.workoutexercise",
+    "pk": 3,
+    "fields": {
+      "workout": 3,
+      "exercise": 3,
+      "sets": 3,
+      "reps": 12,
+      "weight": 20.0,
+      "duration_seconds": null
+    }
+  },
+  {
+    "model": "workoutapi.workoutexercise",
+    "pk": 4,
+    "fields": {
+      "workout": 4,
+      "exercise": 4,
+      "sets": 5,
+      "reps": 5,
+      "weight": 60.0,
+      "duration_seconds": null
+    }
+  },
+  {
+    "model": "workoutapi.workoutexercise",
+    "pk": 5,
+    "fields": {
+      "workout": 5,
+      "exercise": 5,
+      "sets": 3,
+      "reps": 15,
+      "weight": null,
+      "duration_seconds": null
+    }
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "model": "workoutapi.exercise",
+    "pk": 1,
+    "fields": {
+      "name": "Barbell Back Squat",
+      "category": "Strength",
+      "description": "Compound lower-body lift."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 2,
+    "fields": {
+      "name": "Barbell Bench Press",
+      "category": "Strength",
+      "description": "Compound upper-body press."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 3,
+    "fields": {
+      "name": "Conventional Deadlift",
+      "category": "Strength",
+      "description": "Posterior-chain pull."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 4,
+    "fields": {
+      "name": "Pull-Up",
+      "category": "Strength",
+      "description": "Bodyweight vertical pull."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 5,
+    "fields": {
+      "name": "Plank",
+      "category": "Core",
+      "description": "Isometric core hold."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 6,
+    "fields": {
+      "name": "Running",
+      "category": "Cardio",
+      "description": "Steady-state or intervals."
+    }
+  }
+]

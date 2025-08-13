@@ -5,3 +5,4 @@ from .workout_exercise import WorkoutExerciseViewSet
 from .workout_type import WorkoutTypeViewSet
 from .user import Users
 from .profile import ProfileViewSet
+from .muscle_groups import MuscleGroupViewSet

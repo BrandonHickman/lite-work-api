@@ -1,0 +1,40 @@
+[
+  { "model": "workoutapi.musclegroup", "pk": 1, "fields": { "name": "Chest" } },
+  { "model": "workoutapi.musclegroup", "pk": 2, "fields": { "name": "Back" } },
+  {
+    "model": "workoutapi.musclegroup",
+    "pk": 3,
+    "fields": { "name": "Shoulders" }
+  },
+  {
+    "model": "workoutapi.musclegroup",
+    "pk": 4,
+    "fields": { "name": "Biceps" }
+  },
+  {
+    "model": "workoutapi.musclegroup",
+    "pk": 5,
+    "fields": { "name": "Triceps" }
+  },
+  {
+    "model": "workoutapi.musclegroup",
+    "pk": 6,
+    "fields": { "name": "Quadriceps" }
+  },
+  {
+    "model": "workoutapi.musclegroup",
+    "pk": 7,
+    "fields": { "name": "Hamstrings" }
+  },
+  {
+    "model": "workoutapi.musclegroup",
+    "pk": 8,
+    "fields": { "name": "Glutes" }
+  },
+  {
+    "model": "workoutapi.musclegroup",
+    "pk": 9,
+    "fields": { "name": "Calves" }
+  },
+  { "model": "workoutapi.musclegroup", "pk": 10, "fields": { "name": "Core" } }
+]
