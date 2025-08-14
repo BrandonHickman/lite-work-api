@@ -11,7 +11,7 @@ class WorkoutExerciseViewSet(viewsets.ViewSet):
     permission_classes = [IsAuthenticated]
 
     class WorkoutExerciseSerializer(serializers.ModelSerializer):
-        workout = serializers.PrimaryKeyRelatedField(queryset=Workout.objects.all())
+        workout  = serializers.PrimaryKeyRelatedField(queryset=Workout.objects.all())
         exercise = serializers.PrimaryKeyRelatedField(queryset=Exercise.objects.all())
 
         class Meta:
@@ -21,9 +21,15 @@ class WorkoutExerciseViewSet(viewsets.ViewSet):
                 'sets', 'reps', 'weight', 'duration_seconds',
                 'position'
             ]
+            
+            validators = []
+            
+            extra_kwargs = {
+                'position': {'required': False}
+            }
 
         def validate(self, attrs):
-            # Optional: add sets/reps vs duration rule if you want
+
             workout  = attrs.get('workout')  or getattr(self.instance, 'workout',  None)
             position = attrs.get('position') or getattr(self.instance, 'position', None)
 
@@ -37,7 +43,8 @@ class WorkoutExerciseViewSet(viewsets.ViewSet):
                     )
             return attrs
 
-    # ===== ViewSet methods (OUTSIDE the serializer) =====
+
+    
 
     def get_queryset(self):
         return WorkoutExercise.objects.filter(
