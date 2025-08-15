@@ -12,7 +12,7 @@ from workoutapi.models.exercise import Exercise
 class WorkoutViewSet(viewsets.ViewSet):
     permission_classes = [IsAuthenticated]
 
-    @action(detail=True, methods=['post'])
+    @action(detail=True, methods=['post'], url_path='add-exercises')
     @transaction.atomic
     def add_exercises(self, request, pk=None):
         """
