@@ -1,4 +1,5 @@
-from rest_framework import serializers, status
+from rest_framework import serializers, status, viewsets, permissions
+from rest_framework.decorators import action
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated
@@ -16,8 +17,9 @@ class ProfileSerializer(serializers.ModelSerializer):
         model = Profile
         fields = [
             'id', 'username', 'email', 'first_name', 'last_name',
-            'bio', 'profile_image_url', 'created_at'
+            'bio', 'created_at', 'avatar', 'challenge_goal', 'challenge_started_at',
         ]
+        read_only_fields = []
 
 class ProfileViewSet(ViewSet):
     permission_classes = [IsAuthenticated]
@@ -28,14 +30,8 @@ class ProfileViewSet(ViewSet):
         return Response(serializer.data)
 
     def retrieve(self, request, pk=None):
-        try:
-            profile = Profile.objects.get(pk=pk)
-            serializer = ProfileSerializer(profile)
-            return Response(serializer.data)
-        except Profile.DoesNotExist:
-            return Response({'message': 'Profile not found.'}, status=status.HTTP_404_NOT_FOUND)
-        except Exception as ex:
-            return HttpResponseServerError(ex)
+        profile = request.user.profile
+        return Response(ProfileSerializer(profile).data)
 
     def update(self, request, pk=None):
         try:
@@ -57,7 +53,11 @@ class ProfileViewSet(ViewSet):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
     def partial_update(self, request, pk=None):
-        return self.update(request, pk=pk)
+        profile = request.user.profile
+        ser = ProfileSerializer(profile, data=request.data, partial=True)
+        ser.is_valid(raise_exception=True)
+        ser.save()
+        return Response(ser.data)
 
     def destroy(self, request, pk=None):
         """Allow a user to delete their own profile & account"""
@@ -77,3 +77,14 @@ class ProfileViewSet(ViewSet):
             return Response({'message': 'Profile not found.'}, status=status.HTTP_404_NOT_FOUND)
         except Exception as ex:
             return HttpResponseServerError(ex)
+        
+    @action(detail=False, methods=['post'], url_path='avatar')
+    def upload_avatar(self, request):
+        # multipart: { avatar: <file> }
+        profile = request.user.profile
+        file = request.FILES.get('avatar')
+        if not file:
+            return Response({'avatar': ['File required']}, status=400)
+        profile.avatar = file
+        profile.save()
+        return Response(ProfileSerializer(profile).data, status=201)

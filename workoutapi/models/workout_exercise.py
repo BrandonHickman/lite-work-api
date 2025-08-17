@@ -12,9 +12,7 @@ class WorkoutExercise(models.Model):
     position = models.PositiveIntegerField(default=1)
 
     class Meta:
-        # Always return rows ordered within each workout
         ordering = ['workout_id', 'position', 'id']
-        # If you want to prevent two rows having the same position in one workout, uncomment: Recommended to enforce unique position per workout to avoid weird ordering bugs and keeps UI predictable.
         constraints = [
             models.UniqueConstraint(fields=['workout', 'position'], name='uniq_workout_position')
         ]

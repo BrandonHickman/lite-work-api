@@ -13,13 +13,14 @@ class WorkoutExerciseViewSet(viewsets.ViewSet):
     class WorkoutExerciseSerializer(serializers.ModelSerializer):
         workout  = serializers.PrimaryKeyRelatedField(queryset=Workout.objects.all())
         exercise = serializers.PrimaryKeyRelatedField(queryset=Exercise.objects.all())
+        exercise_name = serializers.SerializerMethodField()
 
         class Meta:
             model = WorkoutExercise
             fields = [
                 'id', 'workout', 'exercise',
                 'sets', 'reps', 'weight', 'duration_seconds',
-                'position'
+                'position', 'workout_sets', 'exercise_name'
             ]
             
             validators = []
@@ -42,6 +43,9 @@ class WorkoutExerciseViewSet(viewsets.ViewSet):
                         {'position': f'Position {position} is already used in this workout.'}
                     )
             return attrs
+        
+        def get_exercise_name(self, obj):
+            return getattr(obj.exercise, 'name', None)
 
 
     
