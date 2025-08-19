@@ -12,6 +12,8 @@ from workoutapi.views.workout_exercise import WorkoutExerciseViewSet
 from workoutapi.views.muscle_groups import MuscleGroupViewSet
 from workoutapi.views.workout_set import WorkoutSetViewSet
 from workoutapi.views.analytics import HeatmapView
+from workoutapi.views.workout_template import WorkoutTemplateViewSet
+
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'users', Users, basename='user')
@@ -22,6 +24,7 @@ router.register(r'workout-types', WorkoutTypeViewSet, basename='workouttype')
 router.register(r'workout-exercises', WorkoutExerciseViewSet, basename='workoutexercise')
 router.register(r'muscle-groups', MuscleGroupViewSet, basename='musclegroup')
 router.register(r'workout-sets', WorkoutSetViewSet, basename='workout-set')
+router.register(r'workout-templates', WorkoutTemplateViewSet, basename='workout-template')
 
 
 

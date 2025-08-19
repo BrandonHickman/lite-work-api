@@ -2,10 +2,10 @@ from rest_framework import serializers, status, viewsets, permissions
 from rest_framework.decorators import action
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
+from django.contrib.auth.models import User
 from rest_framework.permissions import IsAuthenticated
 from django.http import HttpResponseServerError
 from workoutapi.models.profile import Profile
-from django.contrib.auth.models import User
 
 class ProfileSerializer(serializers.ModelSerializer):
     username = serializers.CharField(source='user.username', read_only=True)
@@ -45,7 +45,6 @@ class ProfileViewSet(ViewSet):
         partial = request.method.lower() == 'patch'
         serializer = ProfileSerializer(profile, data=request.data, partial=partial)
         if serializer.is_valid():
-            # Only editable fields
             profile.bio = serializer.validated_data.get('bio', profile.bio)
             profile.profile_image_url = serializer.validated_data.get('profile_image_url', profile.profile_image_url)
             profile.save()
@@ -64,11 +63,9 @@ class ProfileViewSet(ViewSet):
         try:
             profile = Profile.objects.get(pk=pk)
 
-            # Only the owner can delete
             if profile.user != request.user:
                 return Response({'message': 'Not authorized.'}, status=status.HTTP_403_FORBIDDEN)
 
-            # Delete the associated User (will also cascade delete the Profile)
             user = profile.user
             user.delete()
 
@@ -80,7 +77,6 @@ class ProfileViewSet(ViewSet):
         
     @action(detail=False, methods=['post'], url_path='avatar')
     def upload_avatar(self, request):
-        # multipart: { avatar: <file> }
         profile = request.user.profile
         file = request.FILES.get('avatar')
         if not file:
