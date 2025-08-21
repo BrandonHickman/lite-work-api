@@ -17,12 +17,22 @@ class ProfileSerializer(serializers.ModelSerializer):
         model = Profile
         fields = [
             'id', 'username', 'email', 'first_name', 'last_name',
-            'bio', 'created_at', 'avatar', 'challenge_goal', 'challenge_started_at',
+            'bio', 'created_at', 'avatar', 'challenge_goal', 'challenge_started_at', 'challenge_window_days', 'challenge_label'
         ]
-        read_only_fields = []
+        read_only_fields = ['created_at', 'username', 'email', 'first_name', 'last_name']
 
 class ProfileViewSet(ViewSet):
     permission_classes = [IsAuthenticated]
+
+    @action(detail=False, methods=['get', 'patch'], url_path='me')
+    def me(self, request):
+        profile = request.user.profile
+        if request.method.lower() == 'get':
+            return Response(ProfileSerializer(profile).data)
+        ser = ProfileSerializer(profile, data=request.data, partial=True)
+        ser.is_valid(raise_exception=True)
+        ser.save()
+        return Response(ser.data, status=status.HTTP_200_OK)
 
     def list(self, request):
         profiles = Profile.objects.all()

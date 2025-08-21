@@ -52,5 +52,311 @@
       "category": "Cardio",
       "description": "Steady-state or intervals."
     }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 7,
+    "fields": {
+      "name": "Overhead Press",
+      "category": "Strength",
+      "description": "Standing barbell shoulder press."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 8,
+    "fields": {
+      "name": "Dumbbell Shoulder Press",
+      "category": "Strength",
+      "description": "Seated/standing DB press."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 9,
+    "fields": {
+      "name": "Incline Dumbbell Press",
+      "category": "Strength",
+      "description": "Upper chest press on incline."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 10,
+    "fields": {
+      "name": "Bent-Over Barbell Row",
+      "category": "Strength",
+      "description": "Horizontal pull for back."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 11,
+    "fields": {
+      "name": "Lat Pulldown",
+      "category": "Strength",
+      "description": "Vertical pull variation."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 12,
+    "fields": {
+      "name": "Seated Cable Row",
+      "category": "Strength",
+      "description": "Cable row to torso."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 13,
+    "fields": {
+      "name": "Romanian Deadlift",
+      "category": "Strength",
+      "description": "Hip hinge, hamstrings/glutes."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 14,
+    "fields": {
+      "name": "Goblet Squat",
+      "category": "Strength",
+      "description": "Kettlebell/dumbbell front squat."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 15,
+    "fields": {
+      "name": "Bulgarian Split Squat",
+      "category": "Strength",
+      "description": "Rear-foot-elevated split squat."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 16,
+    "fields": {
+      "name": "Walking Lunge",
+      "category": "Strength",
+      "description": "Alternating lunge steps."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 17,
+    "fields": {
+      "name": "Leg Press",
+      "category": "Strength",
+      "description": "Machine quad/glute press."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 18,
+    "fields": {
+      "name": "Hip Thrust",
+      "category": "Strength",
+      "description": "Glute-dominant bridge with load."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 19,
+    "fields": {
+      "name": "Dumbbell Bicep Curl",
+      "category": "Strength",
+      "description": "Elbow flexion with DBs."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 20,
+    "fields": {
+      "name": "EZ-Bar Curl",
+      "category": "Strength",
+      "description": "Biceps curl with EZ bar."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 21,
+    "fields": {
+      "name": "Triceps Rope Pushdown",
+      "category": "Strength",
+      "description": "Cable triceps extension."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 22,
+    "fields": {
+      "name": "Skull Crushers",
+      "category": "Strength",
+      "description": "Lying triceps extension."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 23,
+    "fields": {
+      "name": "Lateral Raise",
+      "category": "Strength",
+      "description": "DB side raise for delts."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 24,
+    "fields": {
+      "name": "Face Pull",
+      "category": "Strength",
+      "description": "Rear delts + external rotation."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 25,
+    "fields": {
+      "name": "Cable Fly",
+      "category": "Strength",
+      "description": "Pectoral isolation on cable."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 26,
+    "fields": {
+      "name": "Hammer Curl",
+      "category": "Strength",
+      "description": "Neutral-grip biceps/brachialis."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 27,
+    "fields": {
+      "name": "Calf Raise",
+      "category": "Strength",
+      "description": "Standing/seated calf work."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 28,
+    "fields": {
+      "name": "Hanging Leg Raise",
+      "category": "Core",
+      "description": "Lower abs; posterior tilt."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 29,
+    "fields": {
+      "name": "Cable Woodchopper",
+      "category": "Core",
+      "description": "Rotational core cable chop."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 30,
+    "fields": {
+      "name": "Bicycle Crunch",
+      "category": "Core",
+      "description": "Alternating elbow-to-knee."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 31,
+    "fields": {
+      "name": "Farmer's Carry",
+      "category": "Conditioning",
+      "description": "Loaded carry; grip/core."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 32,
+    "fields": {
+      "name": "Rowing Machine",
+      "category": "Cardio",
+      "description": "Steady or intervals on erg."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 33,
+    "fields": {
+      "name": "Air Bike (Assault Bike)",
+      "category": "Cardio",
+      "description": "Arms+legs conditioning."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 34,
+    "fields": {
+      "name": "Jump Rope",
+      "category": "Cardio",
+      "description": "Coordination + conditioning."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 35,
+    "fields": {
+      "name": "Kettlebell Swing",
+      "category": "Conditioning",
+      "description": "Hip hinge power + cardio."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 36,
+    "fields": {
+      "name": "Push-Up",
+      "category": "Strength",
+      "description": "Bodyweight horizontal press."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 37,
+    "fields": {
+      "name": "Dumbbell Row",
+      "category": "Strength",
+      "description": "Single-arm row support."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 38,
+    "fields": {
+      "name": "Chest-Supported Row",
+      "category": "Strength",
+      "description": "Row with chest on bench."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 39,
+    "fields": {
+      "name": "Leg Extension",
+      "category": "Strength",
+      "description": "Quad machine isolation."
+    }
+  },
+  {
+    "model": "workoutapi.exercise",
+    "pk": 40,
+    "fields": {
+      "name": "Leg Curl",
+      "category": "Strength",
+      "description": "Hamstring machine isolation."
+    }
   }
 ]

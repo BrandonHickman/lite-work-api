@@ -13,3 +13,5 @@ python3 manage.py loaddata exercises
 python3 manage.py loaddata muscle_groups
 python3 manage.py loaddata exercise_muscle_groups
 python3 manage.py loaddata workout_exercises
+python3 manage.py loaddata workout_templates
+python3 manage.py loaddata workout_template_exercises

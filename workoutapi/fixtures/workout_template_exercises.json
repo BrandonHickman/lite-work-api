@@ -1,0 +1,150 @@
+[
+  {
+    "model": "workoutapi.workouttemplateexercise",
+    "pk": 101,
+    "fields": { "template": 1, "exercise": 14, "position": 1 }
+  },
+  {
+    "model": "workoutapi.workouttemplateexercise",
+    "pk": 102,
+    "fields": { "template": 1, "exercise": 36, "position": 2 }
+  },
+  {
+    "model": "workoutapi.workouttemplateexercise",
+    "pk": 103,
+    "fields": { "template": 1, "exercise": 37, "position": 3 }
+  },
+  {
+    "model": "workoutapi.workouttemplateexercise",
+    "pk": 104,
+    "fields": { "template": 1, "exercise": 5, "position": 4 }
+  },
+  {
+    "model": "workoutapi.workouttemplateexercise",
+    "pk": 105,
+    "fields": { "template": 1, "exercise": 34, "position": 5 }
+  },
+
+  {
+    "model": "workoutapi.workouttemplateexercise",
+    "pk": 201,
+    "fields": { "template": 2, "exercise": 2, "position": 1 }
+  },
+  {
+    "model": "workoutapi.workouttemplateexercise",
+    "pk": 202,
+    "fields": { "template": 2, "exercise": 9, "position": 2 }
+  },
+  {
+    "model": "workoutapi.workouttemplateexercise",
+    "pk": 203,
+    "fields": { "template": 2, "exercise": 7, "position": 3 }
+  },
+  {
+    "model": "workoutapi.workouttemplateexercise",
+    "pk": 204,
+    "fields": { "template": 2, "exercise": 23, "position": 4 }
+  },
+  {
+    "model": "workoutapi.workouttemplateexercise",
+    "pk": 205,
+    "fields": { "template": 2, "exercise": 21, "position": 5 }
+  },
+
+  {
+    "model": "workoutapi.workouttemplateexercise",
+    "pk": 301,
+    "fields": { "template": 3, "exercise": 10, "position": 1 }
+  },
+  {
+    "model": "workoutapi.workouttemplateexercise",
+    "pk": 302,
+    "fields": { "template": 3, "exercise": 11, "position": 2 }
+  },
+  {
+    "model": "workoutapi.workouttemplateexercise",
+    "pk": 303,
+    "fields": { "template": 3, "exercise": 38, "position": 3 }
+  },
+  {
+    "model": "workoutapi.workouttemplateexercise",
+    "pk": 304,
+    "fields": { "template": 3, "exercise": 26, "position": 4 }
+  },
+  {
+    "model": "workoutapi.workouttemplateexercise",
+    "pk": 305,
+    "fields": { "template": 3, "exercise": 20, "position": 5 }
+  },
+  {
+    "model": "workoutapi.workouttemplateexercise",
+    "pk": 306,
+    "fields": { "template": 3, "exercise": 24, "position": 6 }
+  },
+
+  {
+    "model": "workoutapi.workouttemplateexercise",
+    "pk": 401,
+    "fields": { "template": 4, "exercise": 1, "position": 1 }
+  },
+  {
+    "model": "workoutapi.workouttemplateexercise",
+    "pk": 402,
+    "fields": { "template": 4, "exercise": 13, "position": 2 }
+  },
+  {
+    "model": "workoutapi.workouttemplateexercise",
+    "pk": 403,
+    "fields": { "template": 4, "exercise": 15, "position": 3 }
+  },
+  {
+    "model": "workoutapi.workouttemplateexercise",
+    "pk": 404,
+    "fields": { "template": 4, "exercise": 17, "position": 4 }
+  },
+  {
+    "model": "workoutapi.workouttemplateexercise",
+    "pk": 405,
+    "fields": { "template": 4, "exercise": 27, "position": 5 }
+  },
+  {
+    "model": "workoutapi.workouttemplateexercise",
+    "pk": 501,
+    "fields": { "template": 5, "exercise": 5, "position": 1 }
+  },
+  {
+    "model": "workoutapi.workouttemplateexercise",
+    "pk": 502,
+    "fields": { "template": 5, "exercise": 28, "position": 2 }
+  },
+  {
+    "model": "workoutapi.workouttemplateexercise",
+    "pk": 503,
+    "fields": { "template": 5, "exercise": 29, "position": 3 }
+  },
+  {
+    "model": "workoutapi.workouttemplateexercise",
+    "pk": 504,
+    "fields": { "template": 5, "exercise": 30, "position": 4 }
+  },
+  {
+    "model": "workoutapi.workouttemplateexercise",
+    "pk": 601,
+    "fields": { "template": 6, "exercise": 33, "position": 1 }
+  },
+  {
+    "model": "workoutapi.workouttemplateexercise",
+    "pk": 602,
+    "fields": { "template": 6, "exercise": 32, "position": 2 }
+  },
+  {
+    "model": "workoutapi.workouttemplateexercise",
+    "pk": 603,
+    "fields": { "template": 6, "exercise": 35, "position": 3 }
+  },
+  {
+    "model": "workoutapi.workouttemplateexercise",
+    "pk": 604,
+    "fields": { "template": 6, "exercise": 34, "position": 4 }
+  }
+]

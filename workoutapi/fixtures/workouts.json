@@ -9,7 +9,7 @@
       "description": "Heavy compound lifts focused on lower body.",
       "duration_minutes": 60,
       "workout_type": 1,
-      "completed": false
+      "completed": true
     }
   },
   {
@@ -22,7 +22,7 @@
       "description": "Bench press, overhead press, and accessories.",
       "duration_minutes": 45,
       "workout_type": 1,
-      "completed": false
+      "completed": true
     }
   },
   {
@@ -35,7 +35,7 @@
       "description": "Hips/shoulders mobility drills.",
       "duration_minutes": 30,
       "workout_type": 3,
-      "completed": false
+      "completed": true
     }
   },
   {
@@ -48,7 +48,7 @@
       "description": "Intervals: burpees, KB swings, rower.",
       "duration_minutes": 25,
       "workout_type": 4,
-      "completed": false
+      "completed": true
     }
   },
   {
@@ -61,7 +61,1307 @@
       "description": "Planks, hollow holds, anti-rotation.",
       "duration_minutes": 20,
       "workout_type": 5,
-      "completed": false
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 6,
+    "fields": {
+      "user": 2,
+      "title": "Full Body Strength",
+      "date": "2024-09-22",
+      "description": "Squats, deadlifts, and bench press.",
+      "duration_minutes": 65,
+      "workout_type": 1,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 7,
+    "fields": {
+      "user": 2,
+      "title": "Cardio Blast",
+      "date": "2024-09-25",
+      "description": "Treadmill sprints and jump rope.",
+      "duration_minutes": 30,
+      "workout_type": 4,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 8,
+    "fields": {
+      "user": 2,
+      "title": "Upper Body Pull",
+      "date": "2024-09-28",
+      "description": "Pull-ups, rows, and bicep curls.",
+      "duration_minutes": 50,
+      "workout_type": 1,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 9,
+    "fields": {
+      "user": 2,
+      "title": "Yoga Flow",
+      "date": "2024-10-01",
+      "description": "Vinyasa sequence for flexibility.",
+      "duration_minutes": 40,
+      "workout_type": 3,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 10,
+    "fields": {
+      "user": 2,
+      "title": "Core and Stability",
+      "date": "2024-10-04",
+      "description": "Russian twists and stability ball work.",
+      "duration_minutes": 25,
+      "workout_type": 5,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 11,
+    "fields": {
+      "user": 2,
+      "title": "Leg Day Power",
+      "date": "2024-10-07",
+      "description": "Heavy squats and lunges.",
+      "duration_minutes": 60,
+      "workout_type": 1,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 12,
+    "fields": {
+      "user": 2,
+      "title": "HIIT Session",
+      "date": "2024-10-10",
+      "description": "Burpees, mountain climbers, and kettlebell swings.",
+      "duration_minutes": 20,
+      "workout_type": 4,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 13,
+    "fields": {
+      "user": 2,
+      "title": "Push Day",
+      "date": "2024-10-13",
+      "description": "Chest press and shoulder press.",
+      "duration_minutes": 55,
+      "workout_type": 1,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 14,
+    "fields": {
+      "user": 2,
+      "title": "Mobility and Stretch",
+      "date": "2024-10-16",
+      "description": "Dynamic stretches and foam rolling.",
+      "duration_minutes": 35,
+      "workout_type": 3,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 15,
+    "fields": {
+      "user": 2,
+      "title": "Core Circuit",
+      "date": "2024-10-19",
+      "description": "Planks, leg raises, and bicycle crunches.",
+      "duration_minutes": 25,
+      "workout_type": 5,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 16,
+    "fields": {
+      "user": 2,
+      "title": "Strength Training",
+      "date": "2024-10-22",
+      "description": "Deadlifts and pull-ups.",
+      "duration_minutes": 60,
+      "workout_type": 1,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 17,
+    "fields": {
+      "user": 2,
+      "title": "Sprint Intervals",
+      "date": "2024-10-25",
+      "description": "Track sprints and bodyweight exercises.",
+      "duration_minutes": 30,
+      "workout_type": 4,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 18,
+    "fields": {
+      "user": 2,
+      "title": "Upper Body Strength",
+      "date": "2024-10-28",
+      "description": "Bench press and dumbbell rows.",
+      "duration_minutes": 50,
+      "workout_type": 1,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 19,
+    "fields": {
+      "user": 2,
+      "title": "Yoga Recovery",
+      "date": "2024-10-31",
+      "description": "Gentle yoga for recovery.",
+      "duration_minutes": 45,
+      "workout_type": 3,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 20,
+    "fields": {
+      "user": 2,
+      "title": "Core Blast",
+      "date": "2024-11-03",
+      "description": "Hanging leg raises and ab rollouts.",
+      "duration_minutes": 20,
+      "workout_type": 5,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 21,
+    "fields": {
+      "user": 2,
+      "title": "Leg Day",
+      "date": "2024-11-06",
+      "description": "Squats, leg press, and calf raises.",
+      "duration_minutes": 65,
+      "workout_type": 1,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 22,
+    "fields": {
+      "user": 2,
+      "title": "Cardio HIIT",
+      "date": "2024-11-09",
+      "description": "Jump squats and battle ropes.",
+      "duration_minutes": 25,
+      "workout_type": 4,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 23,
+    "fields": {
+      "user": 2,
+      "title": "Pull Day",
+      "date": "2024-11-12",
+      "description": "Chin-ups and barbell rows.",
+      "duration_minutes": 55,
+      "workout_type": 1,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 24,
+    "fields": {
+      "user": 2,
+      "title": "Mobility Work",
+      "date": "2024-11-15",
+      "description": "Hip openers and shoulder mobility.",
+      "duration_minutes": 30,
+      "workout_type": 3,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 25,
+    "fields": {
+      "user": 2,
+      "title": "Core Strength",
+      "date": "2024-11-18",
+      "description": "Plank variations and dead bugs.",
+      "duration_minutes": 25,
+      "workout_type": 5,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 26,
+    "fields": {
+      "user": 2,
+      "title": "Full Body Circuit",
+      "date": "2024-11-21",
+      "description": "Bodyweight circuit with push-ups and squats.",
+      "duration_minutes": 40,
+      "workout_type": 4,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 27,
+    "fields": {
+      "user": 2,
+      "title": "Upper Body Push",
+      "date": "2024-11-24",
+      "description": "Incline bench and shoulder press.",
+      "duration_minutes": 50,
+      "workout_type": 1,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 28,
+    "fields": {
+      "user": 2,
+      "title": "Yoga Session",
+      "date": "2024-11-27",
+      "description": "Flow with warrior poses.",
+      "duration_minutes": 40,
+      "workout_type": 3,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 29,
+    "fields": {
+      "user": 2,
+      "title": "Core and Cardio",
+      "date": "2024-11-30",
+      "description": "Planks and jump rope intervals.",
+      "duration_minutes": 30,
+      "workout_type": 5,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 30,
+    "fields": {
+      "user": 2,
+      "title": "Leg Strength",
+      "date": "2024-12-03",
+      "description": "Bulgarian split squats and deadlifts.",
+      "duration_minutes": 60,
+      "workout_type": 1,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 31,
+    "fields": {
+      "user": 2,
+      "title": "HIIT Workout",
+      "date": "2024-12-06",
+      "description": "Box jumps and kettlebell swings.",
+      "duration_minutes": 25,
+      "workout_type": 4,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 32,
+    "fields": {
+      "user": 2,
+      "title": "Pull Session",
+      "date": "2024-12-09",
+      "description": "Weighted pull-ups and rows.",
+      "duration_minutes": 55,
+      "workout_type": 1,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 33,
+    "fields": {
+      "user": 2,
+      "title": "Mobility Flow",
+      "date": "2024-12-12",
+      "description": "Dynamic stretches and yoga poses.",
+      "duration_minutes": 35,
+      "workout_type": 3,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 34,
+    "fields": {
+      "user": 2,
+      "title": "Core Focus",
+      "date": "2024-12-15",
+      "description": "Ab rollouts and side planks.",
+      "duration_minutes": 20,
+      "workout_type": 5,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 35,
+    "fields": {
+      "user": 2,
+      "title": "Full Body Strength",
+      "date": "2024-12-18",
+      "description": "Squats, bench, and rows.",
+      "duration_minutes": 65,
+      "workout_type": 1,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 36,
+    "fields": {
+      "user": 2,
+      "title": "Cardio Intervals",
+      "date": "2024-12-21",
+      "description": "Rower and burpee intervals.",
+      "duration_minutes": 30,
+      "workout_type": 4,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 37,
+    "fields": {
+      "user": 2,
+      "title": "Push Day",
+      "date": "2024-12-24",
+      "description": "Chest press and dips.",
+      "duration_minutes": 50,
+      "workout_type": 1,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 38,
+    "fields": {
+      "user": 2,
+      "title": "Yoga Recovery",
+      "date": "2024-12-27",
+      "description": "Restorative yoga session.",
+      "duration_minutes": 40,
+      "workout_type": 3,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 39,
+    "fields": {
+      "user": 2,
+      "title": "Core Circuit",
+      "date": "2024-12-30",
+      "description": "Planks and Russian twists.",
+      "duration_minutes": 25,
+      "workout_type": 5,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 40,
+    "fields": {
+      "user": 2,
+      "title": "Leg Day",
+      "date": "2025-01-02",
+      "description": "Squats and leg curls.",
+      "duration_minutes": 60,
+      "workout_type": 1,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 41,
+    "fields": {
+      "user": 2,
+      "title": "HIIT Session",
+      "date": "2025-01-05",
+      "description": "Mountain climbers and jump squats.",
+      "duration_minutes": 20,
+      "workout_type": 4,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 42,
+    "fields": {
+      "user": 2,
+      "title": "Pull Day",
+      "date": "2025-01-08",
+      "description": "Pull-ups and dumbbell rows.",
+      "duration_minutes": 55,
+      "workout_type": 1,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 43,
+    "fields": {
+      "user": 2,
+      "title": "Mobility Work",
+      "date": "2025-01-11",
+      "description": "Hip and shoulder mobility drills.",
+      "duration_minutes": 30,
+      "workout_type": 3,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 44,
+    "fields": {
+      "user": 2,
+      "title": "Core Strength",
+      "date": "2025-01-14",
+      "description": "Hanging leg raises and planks.",
+      "duration_minutes": 25,
+      "workout_type": 5,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 45,
+    "fields": {
+      "user": 2,
+      "title": "Full Body Circuit",
+      "date": "2025-01-17",
+      "description": "Bodyweight exercises and kettlebell swings.",
+      "duration_minutes": 40,
+      "workout_type": 4,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 46,
+    "fields": {
+      "user": 2,
+      "title": "Upper Body Push",
+      "date": "2025-01-20",
+      "description": "Bench press and overhead press.",
+      "duration_minutes": 50,
+      "workout_type": 1,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 47,
+    "fields": {
+      "user": 2,
+      "title": "Yoga Flow",
+      "date": "2025-01-23",
+      "description": "Vinyasa yoga sequence.",
+      "duration_minutes": 45,
+      "workout_type": 3,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 48,
+    "fields": {
+      "user": 2,
+      "title": "Core Blast",
+      "date": "2025-01-26",
+      "description": "Ab rollouts and bicycle crunches.",
+      "duration_minutes": 20,
+      "workout_type": 5,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 49,
+    "fields": {
+      "user": 2,
+      "title": "Leg Strength",
+      "date": "2025-01-29",
+      "description": "Squats and lunges.",
+      "duration_minutes": 60,
+      "workout_type": 1,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 50,
+    "fields": {
+      "user": 2,
+      "title": "Cardio HIIT",
+      "date": "2025-02-01",
+      "description": "Burpees and jump rope.",
+      "duration_minutes": 25,
+      "workout_type": 4,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 51,
+    "fields": {
+      "user": 2,
+      "title": "Pull Session",
+      "date": "2025-02-04",
+      "description": "Chin-ups and barbell rows.",
+      "duration_minutes": 55,
+      "workout_type": 1,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 52,
+    "fields": {
+      "user": 2,
+      "title": "Mobility Flow",
+      "date": "2025-02-07",
+      "description": "Dynamic stretches and foam rolling.",
+      "duration_minutes": 35,
+      "workout_type": 3,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 53,
+    "fields": {
+      "user": 2,
+      "title": "Core Circuit",
+      "date": "2025-02-10",
+      "description": "Planks and leg raises.",
+      "duration_minutes": 25,
+      "workout_type": 5,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 54,
+    "fields": {
+      "user": 2,
+      "title": "Full Body Strength",
+      "date": "2025-02-13",
+      "description": "Deadlifts, bench, and squats.",
+      "duration_minutes": 65,
+      "workout_type": 1,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 55,
+    "fields": {
+      "user": 2,
+      "title": "Sprint Intervals",
+      "date": "2025-02-16",
+      "description": "Track sprints and bodyweight exercises.",
+      "duration_minutes": 30,
+      "workout_type": 4,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 56,
+    "fields": {
+      "user": 2,
+      "title": "Push Day",
+      "date": "2025-02-19",
+      "description": "Chest press and shoulder press.",
+      "duration_minutes": 50,
+      "workout_type": 1,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 57,
+    "fields": {
+      "user": 2,
+      "title": "Yoga Recovery",
+      "date": "2025-02-22",
+      "description": "Gentle yoga for recovery.",
+      "duration_minutes": 40,
+      "workout_type": 3,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 58,
+    "fields": {
+      "user": 2,
+      "title": "Core Strength",
+      "date": "2025-02-25",
+      "description": "Planks and dead bugs.",
+      "duration_minutes": 25,
+      "workout_type": 5,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 59,
+    "fields": {
+      "user": 2,
+      "title": "Leg Day",
+      "date": "2025-02-28",
+      "description": "Squats and leg press.",
+      "duration_minutes": 60,
+      "workout_type": 1,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 60,
+    "fields": {
+      "user": 2,
+      "title": "HIIT Workout",
+      "date": "2025-03-03",
+      "description": "Box jumps and kettlebell swings.",
+      "duration_minutes": 20,
+      "workout_type": 4,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 61,
+    "fields": {
+      "user": 2,
+      "title": "Pull Session",
+      "date": "2025-03-06",
+      "description": "Weighted pull-ups and rows.",
+      "duration_minutes": 55,
+      "workout_type": 1,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 62,
+    "fields": {
+      "user": 2,
+      "title": "Mobility Work",
+      "date": "2025-03-09",
+      "description": "Hip openers and shoulder mobility.",
+      "duration_minutes": 30,
+      "workout_type": 3,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 63,
+    "fields": {
+      "user": 2,
+      "title": "Core Blast",
+      "date": "2025-03-12",
+      "description": "Ab rollouts and side planks.",
+      "duration_minutes": 25,
+      "workout_type": 5,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 64,
+    "fields": {
+      "user": 2,
+      "title": "Full Body Circuit",
+      "date": "2025-03-15",
+      "description": "Bodyweight circuit with push-ups and squats.",
+      "duration_minutes": 40,
+      "workout_type": 4,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 65,
+    "fields": {
+      "user": 2,
+      "title": "Upper Body Push",
+      "date": "2025-03-18",
+      "description": "Incline bench and shoulder press.",
+      "duration_minutes": 50,
+      "workout_type": 1,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 66,
+    "fields": {
+      "user": 2,
+      "title": "Yoga Session",
+      "date": "2025-03-21",
+      "description": "Flow with warrior poses.",
+      "duration_minutes": 40,
+      "workout_type": 3,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 67,
+    "fields": {
+      "user": 2,
+      "title": "Core and Cardio",
+      "date": "2025-03-24",
+      "description": "Planks and jump rope intervals.",
+      "duration_minutes": 30,
+      "workout_type": 5,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 68,
+    "fields": {
+      "user": 2,
+      "title": "Leg Strength",
+      "date": "2025-03-27",
+      "description": "Squats and lunges.",
+      "duration_minutes": 60,
+      "workout_type": 1,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 69,
+    "fields": {
+      "user": 2,
+      "title": "Cardio HIIT",
+      "date": "2025-03-30",
+      "description": "Burpees and battle ropes.",
+      "duration_minutes": 25,
+      "workout_type": 4,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 70,
+    "fields": {
+      "user": 2,
+      "title": "Pull Day",
+      "date": "2025-04-02",
+      "description": "Chin-ups and barbell rows.",
+      "duration_minutes": 55,
+      "workout_type": 1,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 71,
+    "fields": {
+      "user": 2,
+      "title": "Mobility Flow",
+      "date": "2025-04-05",
+      "description": "Dynamic stretches and yoga poses.",
+      "duration_minutes": 35,
+      "workout_type": 3,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 72,
+    "fields": {
+      "user": 2,
+      "title": "Core Circuit",
+      "date": "2025-04-08",
+      "description": "Planks and leg raises.",
+      "duration_minutes": 25,
+      "workout_type": 5,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 73,
+    "fields": {
+      "user": 2,
+      "title": "Full Body Strength",
+      "date": "2025-04-11",
+      "description": "Deadlifts, bench, and squats.",
+      "duration_minutes": 65,
+      "workout_type": 1,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 74,
+    "fields": {
+      "user": 2,
+      "title": "Sprint Intervals",
+      "date": "2025-04-14",
+      "description": "Track sprints and bodyweight exercises.",
+      "duration_minutes": 30,
+      "workout_type": 4,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 75,
+    "fields": {
+      "user": 2,
+      "title": "Push Day",
+      "date": "2025-04-17",
+      "description": "Chest press and shoulder press.",
+      "duration_minutes": 50,
+      "workout_type": 1,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 76,
+    "fields": {
+      "user": 2,
+      "title": "Yoga Recovery",
+      "date": "2025-04-20",
+      "description": "Gentle yoga for recovery.",
+      "duration_minutes": 40,
+      "workout_type": 3,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 77,
+    "fields": {
+      "user": 2,
+      "title": "Core Strength",
+      "date": "2025-04-23",
+      "description": "Planks and dead bugs.",
+      "duration_minutes": 25,
+      "workout_type": 5,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 78,
+    "fields": {
+      "user": 2,
+      "title": "Leg Day",
+      "date": "2025-04-26",
+      "description": "Squats and leg press.",
+      "duration_minutes": 60,
+      "workout_type": 1,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 79,
+    "fields": {
+      "user": 2,
+      "title": "HIIT Workout",
+      "date": "2025-04-29",
+      "description": "Box jumps and kettlebell swings.",
+      "duration_minutes": 20,
+      "workout_type": 4,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 80,
+    "fields": {
+      "user": 2,
+      "title": "Pull Session",
+      "date": "2025-05-02",
+      "description": "Weighted pull-ups and rows.",
+      "duration_minutes": 55,
+      "workout_type": 1,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 81,
+    "fields": {
+      "user": 2,
+      "title": "Mobility Work",
+      "date": "2025-05-05",
+      "description": "Hip openers and shoulder mobility.",
+      "duration_minutes": 30,
+      "workout_type": 3,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 82,
+    "fields": {
+      "user": 2,
+      "title": "Core Blast",
+      "date": "2025-05-08",
+      "description": "Ab rollouts and side planks.",
+      "duration_minutes": 25,
+      "workout_type": 5,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 83,
+    "fields": {
+      "user": 2,
+      "title": "Full Body Circuit",
+      "date": "2025-05-11",
+      "description": "Bodyweight circuit with push-ups and squats.",
+      "duration_minutes": 40,
+      "workout_type": 4,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 84,
+    "fields": {
+      "user": 2,
+      "title": "Upper Body Push",
+      "date": "2025-05-14",
+      "description": "Incline bench and shoulder press.",
+      "duration_minutes": 50,
+      "workout_type": 1,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 85,
+    "fields": {
+      "user": 2,
+      "title": "Yoga Session",
+      "date": "2025-05-17",
+      "description": "Flow with warrior poses.",
+      "duration_minutes": 40,
+      "workout_type": 3,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 86,
+    "fields": {
+      "user": 2,
+      "title": "Core and Cardio",
+      "date": "2025-05-20",
+      "description": "Planks and jump rope intervals.",
+      "duration_minutes": 30,
+      "workout_type": 5,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 87,
+    "fields": {
+      "user": 2,
+      "title": "Leg Strength",
+      "date": "2025-05-23",
+      "description": "Squats and lunges.",
+      "duration_minutes": 60,
+      "workout_type": 1,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 88,
+    "fields": {
+      "user": 2,
+      "title": "Cardio HIIT",
+      "date": "2025-05-26",
+      "description": "Burpees and battle ropes.",
+      "duration_minutes": 25,
+      "workout_type": 4,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 89,
+    "fields": {
+      "user": 2,
+      "title": "Pull Day",
+      "date": "2025-05-29",
+      "description": "Chin-ups and barbell rows.",
+      "duration_minutes": 55,
+      "workout_type": 1,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 90,
+    "fields": {
+      "user": 2,
+      "title": "Mobility Flow",
+      "date": "2025-06-01",
+      "description": "Dynamic stretches and yoga poses.",
+      "duration_minutes": 35,
+      "workout_type": 3,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 91,
+    "fields": {
+      "user": 2,
+      "title": "Core Circuit",
+      "date": "2025-06-04",
+      "description": "Planks and leg raises.",
+      "duration_minutes": 25,
+      "workout_type": 5,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 92,
+    "fields": {
+      "user": 2,
+      "title": "Full Body Strength",
+      "date": "2025-06-07",
+      "description": "Deadlifts, bench, and squats.",
+      "duration_minutes": 65,
+      "workout_type": 1,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 93,
+    "fields": {
+      "user": 2,
+      "title": "Sprint Intervals",
+      "date": "2025-06-10",
+      "description": "Track sprints and bodyweight exercises.",
+      "duration_minutes": 30,
+      "workout_type": 4,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 94,
+    "fields": {
+      "user": 2,
+      "title": "Push Day",
+      "date": "2025-06-13",
+      "description": "Chest press and shoulder press.",
+      "duration_minutes": 50,
+      "workout_type": 1,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 95,
+    "fields": {
+      "user": 2,
+      "title": "Yoga Recovery",
+      "date": "2025-06-16",
+      "description": "Gentle yoga for recovery.",
+      "duration_minutes": 40,
+      "workout_type": 3,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 96,
+    "fields": {
+      "user": 2,
+      "title": "Core Strength",
+      "date": "2025-06-19",
+      "description": "Planks and dead bugs.",
+      "duration_minutes": 25,
+      "workout_type": 5,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 97,
+    "fields": {
+      "user": 2,
+      "title": "Leg Day",
+      "date": "2025-06-22",
+      "description": "Squats and leg press.",
+      "duration_minutes": 60,
+      "workout_type": 1,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 98,
+    "fields": {
+      "user": 2,
+      "title": "HIIT Workout",
+      "date": "2025-06-25",
+      "description": "Box jumps and kettlebell swings.",
+      "duration_minutes": 20,
+      "workout_type": 4,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 99,
+    "fields": {
+      "user": 2,
+      "title": "Pull Session",
+      "date": "2025-06-28",
+      "description": "Weighted pull-ups and rows.",
+      "duration_minutes": 55,
+      "workout_type": 1,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 100,
+    "fields": {
+      "user": 2,
+      "title": "Mobility Work",
+      "date": "2025-07-01",
+      "description": "Hip openers and shoulder mobility.",
+      "duration_minutes": 30,
+      "workout_type": 3,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 101,
+    "fields": {
+      "user": 2,
+      "title": "Core Blast",
+      "date": "2025-07-04",
+      "description": "Ab rollouts and side planks.",
+      "duration_minutes": 25,
+      "workout_type": 5,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 102,
+    "fields": {
+      "user": 2,
+      "title": "Full Body Circuit",
+      "date": "2025-07-07",
+      "description": "Bodyweight circuit with push-ups and squats.",
+      "duration_minutes": 40,
+      "workout_type": 4,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 103,
+    "fields": {
+      "user": 2,
+      "title": "Upper Body Push",
+      "date": "2025-07-10",
+      "description": "Incline bench and shoulder press.",
+      "duration_minutes": 50,
+      "workout_type": 1,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 104,
+    "fields": {
+      "user": 2,
+      "title": "Yoga Session",
+      "date": "2025-07-13",
+      "description": "Flow with warrior poses.",
+      "duration_minutes": 40,
+      "workout_type": 3,
+      "completed": true
+    }
+  },
+  {
+    "model": "workoutapi.workout",
+    "pk": 105,
+    "fields": {
+      "user": 2,
+      "title": "Core and Cardio",
+      "date": "2025-07-16",
+      "description": "Planks and jump rope intervals.",
+      "duration_minutes": 30,
+      "workout_type": 5,
+      "completed": true
     }
   }
 ]

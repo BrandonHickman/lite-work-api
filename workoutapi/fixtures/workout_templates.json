@@ -1,0 +1,8 @@
+[
+  { "model": "workoutapi.workouttemplate", "pk": 1, "fields": { "title": "Beginner Full Body", "description": "Simple full-body strength session." } },
+  { "model": "workoutapi.workouttemplate", "pk": 2, "fields": { "title": "Push Day",           "description": "Chest/shoulders/triceps focus." } },
+  { "model": "workoutapi.workouttemplate", "pk": 3, "fields": { "title": "Pull Day",           "description": "Back/biceps focus." } },
+  { "model": "workoutapi.workouttemplate", "pk": 4, "fields": { "title": "Legs Day",           "description": "Quads/hamstrings/glutes." } },
+  { "model": "workoutapi.workouttemplate", "pk": 5, "fields": { "title": "Core Circuit",       "description": "Abdominal and trunk stability." } },
+  { "model": "workoutapi.workouttemplate", "pk": 6, "fields": { "title": "Conditioning Mix",   "description": "Short mixed modal conditioning." } }
+]

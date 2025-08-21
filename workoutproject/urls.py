@@ -13,6 +13,7 @@ from workoutapi.views.muscle_groups import MuscleGroupViewSet
 from workoutapi.views.workout_set import WorkoutSetViewSet
 from workoutapi.views.analytics import HeatmapView
 from workoutapi.views.workout_template import WorkoutTemplateViewSet
+from workoutapi.views.analytics import HeatmapView
 
 
 router = routers.DefaultRouter(trailing_slash=False)
@@ -35,4 +36,3 @@ urlpatterns = [
     path('login', LoginView.as_view(), name='login'),
     path('analytics/heatmap/', HeatmapView.as_view(), name='heatmap'),
 ]
-

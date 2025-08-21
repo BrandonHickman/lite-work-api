@@ -3,7 +3,6 @@ from rest_framework.decorators import action
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from django.utils import timezone
-
 from workoutapi.models.workout_template import WorkoutTemplate, WorkoutTemplateExercise
 from workoutapi.models.workout import Workout
 from workoutapi.models.workout_exercise import WorkoutExercise
@@ -31,7 +30,6 @@ class WorkoutTemplateViewSet(viewsets.ReadOnlyModelViewSet):
     def start(self, request, pk=None):
         template = self.get_object()
 
-        # create a real workout for this user
         clone = Workout.objects.create(
             user=request.user,
             title=template.title,
